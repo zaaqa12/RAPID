@@ -1,0 +1,306 @@
+.nugal{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+.nugal .col-1{}
+.nugal .col h2{
+    color: rgb(61, 61, 122);
+}
+.nugal .col-2{
+    /* display: flex; */
+}
+.nugal .col-2{
+    
+}
+
+.nugal .col-2 ol{
+    display: flex;
+    /* text-decoration: none; */
+    list-style: none;
+    gap: 0px 20px;
+    
+}
+.nugal .col-2 ol li{
+    
+}
+.nugal .col ol li a{
+    text-decoration: none;
+}
+@media (max-width: 991px) {
+    .nugal .col-2{
+        display: none;
+    }
+    
+}
+
+
+.section{ 
+    display: flex;
+    padding: 20px 60px;
+    border: 1px;
+}
+.section .container{ 
+     display: flex; 
+    
+}
+.section .container .col{
+    
+
+}
+    
+
+
+@media (max-width: 991px) {
+    .section .container .col{
+        gap: 0px 20px;
+        flex-basis: 45%;
+        background: red;
+        color: white;
+    }
+
+    
+}
+@media (max-width: 890px) {
+    .section .container .col{
+        flex-basis: 100%;
+        background: green;
+        color: black;
+    }
+    
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-1 .container .p{
+    text-align: center;
+    padding: 60px 60px;
+    font-size: 20px;
+   
+}
+.section-1 .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.section-1 .container .row .col{
+    /* margin: 10px 40px; */
+    flex-basis: 45%;
+}
+@media (max-width: 767px) {
+    .section-1 .container .row .col {
+        flex-basis: 100%; 
+        /* background: gold;  */
+        
+
+    }
+    
+}
+.section-1 .container .row h3{
+    margin: 10px 10px;
+}
+.section-1 .container .row p{ 
+    margin: 10px 10px;
+
+}
+.section-1 .container .row img{
+    width: 400px;
+    max-width: 100%;
+}
+.section-1 .container .row .box{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.section-1 .container .row .icon{
+    font-size: 30px; 
+    margin-top: 20px;
+}
+.nnn{ 
+    /* display:flex ; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.nnn .container{ 
+    display: flex;
+    justify-content: space-around;
+    gap: 20px 13px;
+    flex-wrap: wrap;
+    
+}
+.nnn .container .col{
+
+}
+@media (max-width: 767px) {
+    .nnn .container .col{
+        flex-basis: 45%;
+    }
+    
+}
+
+.nnn.container .col h3{
+    font-size: 40px;
+
+}
+.section-10{ 
+    
+    background: rgb(88, 43, 130);
+    color: white;
+   padding: 60px 60px;
+   gap: 15px;
+}
+.section-10 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.section-10 .container .col-1{
+      flex-basis: 70%;  
+
+.section-10 .container .col-1 h2{
+    font-size: 30px;
+}
+.section-10 .container .col-1 p{ 
+    font-size: 15px;
+   color: rgb(228, 222, 222);
+   line-height: 15px;
+}
+.section-10 .container .col-2{
+     flex-basis: 20%; 
+    
+}
+}
+@media (max-width: 767px) {
+    .section-10 .container .col-1,
+    .section-10 .container .col-2{
+        flex-basis: 100%;
+        
+    }
+    
+}
+.section-10 .container .col-2 button{ 
+    padding: 10px 30px;
+    background:rgb(83, 41, 123) ;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+   
+}
+.section-10 .container .col-2 button:hover{
+    background: blue;
+    ;
+    direction: 4s;
+}
+.section-11{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: rgb(217, 217, 217);
+}
+.section-11 .container{
+    
+ 
+
+}
+.section-11 .container .nm{
+     text-align: center; 
+}
+.section-11 .container p{
+    padding: 0px 60px;
+    text-align: center;
+}
+.section-11 .container .row .col{
+    background: white;
+    border: 1px solid rgb(240, 236, 236);
+    margin: 35px 10px;
+    padding: 100px 60px;
+    flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+    .section-11 .container {
+        font-size: 45%;
+    }
+    
+}
+.section-11 .container .row {
+    display: flex;
+    padding: 0px 60px;
+    justify-content: space-between;
+   
+    /* background: white; */
+}
+.section-11 .container .row .tt{ 
+    position: relative;
+    bottom: 20px;
+
+}
+.section-11 .container .row .ww{
+    font-size: 50px;
+}
+.section-11 .container .row .nn{
+    font-size: 15px;
+}
+.section-11 .container .row .col ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.section-11 .container .row .col button{
+    padding: 10px 15px;
+    /* margin: 60px 20px; */
+    background: blue;
+    color: white;
+}
+
+
+footer{
+    padding: 60px 60px;
+    background: rgb(185, 201, 227);
+    
+
+}
+
+footer .container{
+     display: flex; 
+     
+}
+footer .container h4{
+
+}
+footer .container .col p{
+    margin-bottom: 15px;
+}
+footer .container .col ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer .container .col form{
+    /* font-size: 50%; */
+}
+footer .container .col input{
+    /* padding: 10px 30px; */
+}
+footer .container .col button{
+    padding: 10px 10px;
+    background: blue;
+    color: white;
+}
+footer .container .col form input{
+    /* padding: 20px 10px; */
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+footer .container .col textarea{
+    /* font-size: 20px; */
+    /* padding: 10px 80px; */
+    margin-bottom: 15px;
+    width: 100%;
+    height: 140px;
+}
+.copy{
+    text-align: center;
+}
